@@ -1,0 +1,35 @@
+.card__set {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--indent) / 2);
+}
+
+.card__set-item {
+    flex-basis: calc((100% - var(--indent) * var(--item)) / var(--item));
+
+    margin: calc(var(--indent) / 2);
+}
+
+.card__set-item:hover .bigbest-text {
+    transform: translate(0);
+}
+
+.benefits__list {
+    --item: 4;
+    --indent: 30px;
+}
+
+.features__list {
+    --item: 3;
+    --indent: 30px;
+}
+
+.team__list {
+    --item: 4;
+    --indent: 30px;
+}
+
+.portfolio-list {
+    --item: 3;
+    --indent: 30px;
+}

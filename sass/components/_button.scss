@@ -1,0 +1,121 @@
+.hero__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
+}
+
+
+.hero__button {
+    font-family: inherit;
+    font-style: normal;
+    color: var(--color-minitext);
+    background-color: #2196f3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button:hover,
+.hero__button :focus {
+    color: var(--color-minitext);
+    background-color: #188ce8;
+}
+
+
+.button-link-portfolio .link-portfolio {
+    font-family: inherit;
+
+    color: rgba(33, 33, 33, 1);
+    background-color: var(--color-mix);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: color 250ms, background-color 250ms;
+}
+
+.button-link-portfolio .link-portfolio:hover,
+.button-link-portfolio .link-portfolio:focus {
+    font-family: inherit;
+    font-style: normal;
+    color: var(--color-minitext);
+    background-color: var(--color-buton);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+
+.modal-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.modal-button-go {
+    position: absolute;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: "Roboto";
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    padding-top: 10px;
+    padding-left: 56px;
+    padding-bottom: 10px;
+    padding-right: 55px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.ful-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.ful-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.ful-button {
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

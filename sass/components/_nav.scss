@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color var(--anim);
+}
+
+.nav__item {
+    margin-right: 50px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav .nav__link {
+    font-family: "Roboto";
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.nav .nav__link:hover,
+.button-link-portfolio .link-portfolio:focus {
+    color: var(--color-buton);
+}
+
+.nav__link.current {
+    color: var(--color-buton);
+}
+
